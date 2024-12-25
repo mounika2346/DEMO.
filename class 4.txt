@@ -1,0 +1,64 @@
+LIST
+
+its used to store collection of objects
+
+# listname = [obj1,obj2,obj3]
+
+favfruits = ["Apple","Mango","orange"]
+print(favfruits)
+print(type(favfruits)) -   List
+
+print(favfruits[2])
+
+favfruits[2]="strawberry"
+print(favfruits)
+
+#append
+favfruits.append("kiwi")
+
+#insert
+favfruits = ["Apple","Mango","orange"]
+favfruits.insert(1,"Tomatoes")
+
+#REMOVE
+Favfruits.remove(1)
+#sort
+favfruits.sort()
+captial , small , number
+["Apple","aeroplane","Book","cat","1"]
+
+favfruits.reverse()
+favfruits.pop()
+
+#TUPLE
+#tuplename = (obj1,obj2,obj3)
+
+Wardates = (1914,1939)
+print(Wardates)
+
+Wardates[1]= 2024
+
+TypeError = 'tuple' object does not support item assignment
+
+del(Watdates)
+
+tuple is immutable
+
+list is mutable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
